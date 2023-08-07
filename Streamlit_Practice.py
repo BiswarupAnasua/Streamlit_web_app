@@ -4,7 +4,7 @@ import seaborn as ssn
 import time
 import plotly.express as px
 
-data = pd.read_csv('E:\Data_Analysis\Data\zomato_dataset.csv')
+data = pd.read_csv('zomato_dataset.csv')
 
 
 st.set_page_config(page_title='Zomato Food Price',page_icon='chart_with_upwards_trend',layout='wide')
